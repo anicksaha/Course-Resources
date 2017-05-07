@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01CoreFeatures">
+      <UniqueIdentifier>{3997e3ec-cdff-45ad-99cf-b246778816b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Research">
+      <UniqueIdentifier>{19b4d8b8-984c-4bce-bac8-f53068e147ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MoreFeatures">
+      <UniqueIdentifier>{1d2464ab-1db8-4437-a942-5b3432a8eee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestThreads">
+      <UniqueIdentifier>{a0c16ec8-574c-4723-bb5b-6c0eb50c301a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="002MemberInitializationInClass.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="003InitializerListCtor.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="004CtorPriority.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="005UseOfInitializerListInOtherPlaces.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="001_1InitializationList.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="001_2InitializationAsReturn.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="001_3MoreBraceInitialization.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="002_2UniformInitialization.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CoreFeatures\CoreFeatures\0001TypeInrference.cpp">
+      <Filter>Research</Filter>
+    </ClCompile>
+    <ClCompile Include="006TheUseOfAutoKeyword.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="007AutoKeyWordAndReturnTypes.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="008TheUseOfdecltype.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="009TheDecltypeAndReturnType.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="010RangeBasedLoops.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="011LambdaExpression.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="012DelegatingCtor.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="013ExplicitOverrideAndFinal.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="014NullPtr.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="015StronglyTypedEnums.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="016AngledBracketDeclaration.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="017ExplicitConvertionOperators.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="018TemplateAlias.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="019UnrestrictedUnion.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="020VariadicTemplates.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="021NewStringLiterals.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="022UserDefinedLiterals.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="023StaticAssert.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="024DefaultedAndDeletedSpecialMemberFunctions.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="025SizeofOperators.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="026AllignOfAndAlignAs.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="027TupleTypes.cpp">
+      <Filter>Source Files\01CoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="001RegularExpression.cpp">
+      <Filter>Source Files\MoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="002WrapperReference.cpp">
+      <Filter>Source Files\MoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\Test008.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test001.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test002.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test003.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test004.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test005.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test006.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Project1\Project1\test007.cpp">
+      <Filter>Source Files\TestThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="003FunctionPerfectForwarding.cpp">
+      <Filter>Source Files\MoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="004AsynchronousProgramming.cpp">
+      <Filter>Source Files\MoreFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="028MoveSemantics.cpp">
+      <Filter>Source Files\MoreFeatures</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

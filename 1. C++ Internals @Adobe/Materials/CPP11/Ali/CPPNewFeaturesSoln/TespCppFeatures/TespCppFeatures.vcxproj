@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25687DC9-78FB-4423-8ABF-49005F6E68AB}</ProjectGuid>
+    <RootNamespace>TespCppFeatures</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CoreFeatures\CoreFeatures\0001TypeInrference.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test001.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test002.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test003.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test004.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test005.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test006.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\test007.cpp" />
+    <ClCompile Include="..\..\..\Project1\Project1\Test008.cpp" />
+    <ClCompile Include="001RegularExpression.cpp" />
+    <ClCompile Include="001_1InitializationList.cpp" />
+    <ClCompile Include="001_2InitializationAsReturn.cpp" />
+    <ClCompile Include="001_3MoreBraceInitialization.cpp" />
+    <ClCompile Include="002MemberInitializationInClass.cpp" />
+    <ClCompile Include="002WrapperReference.cpp" />
+    <ClCompile Include="002_2UniformInitialization.cpp" />
+    <ClCompile Include="003FunctionPerfectForwarding.cpp" />
+    <ClCompile Include="003InitializerListCtor.cpp" />
+    <ClCompile Include="004AsynchronousProgramming.cpp" />
+    <ClCompile Include="004CtorPriority.cpp" />
+    <ClCompile Include="005UseOfInitializerListInOtherPlaces.cpp" />
+    <ClCompile Include="006TheUseOfAutoKeyword.cpp" />
+    <ClCompile Include="007AutoKeyWordAndReturnTypes.cpp" />
+    <ClCompile Include="008TheUseOfdecltype.cpp" />
+    <ClCompile Include="009TheDecltypeAndReturnType.cpp" />
+    <ClCompile Include="010RangeBasedLoops.cpp" />
+    <ClCompile Include="011LambdaExpression.cpp" />
+    <ClCompile Include="012DelegatingCtor.cpp" />
+    <ClCompile Include="013ExplicitOverrideAndFinal.cpp" />
+    <ClCompile Include="014NullPtr.cpp" />
+    <ClCompile Include="015StronglyTypedEnums.cpp" />
+    <ClCompile Include="016AngledBracketDeclaration.cpp" />
+    <ClCompile Include="017ExplicitConvertionOperators.cpp" />
+    <ClCompile Include="018TemplateAlias.cpp" />
+    <ClCompile Include="019UnrestrictedUnion.cpp" />
+    <ClCompile Include="020VariadicTemplates.cpp" />
+    <ClCompile Include="021NewStringLiterals.cpp" />
+    <ClCompile Include="022UserDefinedLiterals.cpp" />
+    <ClCompile Include="023StaticAssert.cpp" />
+    <ClCompile Include="024DefaultedAndDeletedSpecialMemberFunctions.cpp" />
+    <ClCompile Include="025SizeofOperators.cpp" />
+    <ClCompile Include="026AllignOfAndAlignAs.cpp" />
+    <ClCompile Include="027TupleTypes.cpp" />
+    <ClCompile Include="028MoveSemantics.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
